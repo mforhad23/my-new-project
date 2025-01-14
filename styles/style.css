@@ -105,9 +105,33 @@
     font-weight: 900;
     font-style: italic;
   }
+
+
+  /* header styles */
+  
+  .headertitle {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .headerbtn {
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 30px 15px;
+    height: 52px;
+    width: 116px;
+    color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    border-color: rgba(0, 106, 80, 1);
+    border: 2px;
+    
+
+  }
+  
+  
+  
   /* banner styles */
 
-  h3 {
+  .bannertitle {
     color: rgba(14, 14, 14, 0.5);
   }
   p {
@@ -121,4 +145,5 @@
   border: none;
   padding: 34px;
   border-radius: 8px;
+
 }
