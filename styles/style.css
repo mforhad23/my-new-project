@@ -17,6 +17,7 @@
   }
   
   .fira-sans-regular {
+    background-color: #F1F1F3;
     font-family: "Fira Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -108,7 +109,12 @@
     font-style: italic;
   }
 
-
+.header{
+  background-color: #F1F1F3;
+}
+.main{
+  background-color: #F1F1F3;
+}
   /* nav styles */
   
   nav{
@@ -187,6 +193,9 @@
 
 
 }
+.btn-primary:hover{
+  background-color: #14e0ad;
+}
 /* vision styles */
 
 .vision {
@@ -204,6 +213,7 @@
 .sectiondescription {
   font-size: 16px;
   color: #0E0E0E;
+  margin-bottom: 32px;
 }
 
 /* visioncontainer styles */
@@ -246,6 +256,9 @@ color: #FFFFFF;
 font-size: 16;
 font-weight: bolder;
 }
+.digitalbtn:hover {
+background-color: #14beed;
+}
 .modernbtn{
   background-color: #FFC239;
   padding: 11px 20px;
@@ -256,6 +269,9 @@ font-weight: bolder;
   font-weight: bolder 
 
 }
+.modernbtn:hover{
+  background-color: #b4f526;
+}
 .greenbtn{
   background-color: #09A15C;
   padding: 11px 20px;
@@ -264,6 +280,34 @@ font-weight: bolder;
   color: #FFFFFF;
   font-size: 16;
   font-weight: bolder 
+  }
+  .greenbtn:hover{
+    background-color: #FFC239;
+  }
 
+/* advisor styles*/
+.advisor{
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 30px 30px;
+  text-align: left;
+  margin: 0 160px;
+  background-color: #FFFFFF;
+  border-style: 2px solid;
 
+  border-radius: 16px;
+  border: rgba(14, 14, 14, 0.15);
+  border-width: thick;
+  padding: 48px 24px;
+
+}
+.chiefspeech{
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.chiefspeech2{
+  color: rgba(14, 14, 14, 0.6);
+}
+.advisorname{
+  margin-bottom: 10px;
 }
